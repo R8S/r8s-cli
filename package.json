@@ -1,7 +1,7 @@
 {
-  "name": "reaction-cli",
+  "name": "r8s-cli",
   "version": "0.24.2",
-  "description": "A command line tool for Reaction Commerce",
+  "description": "A command line tool for Reaction Commerce to be used with kubernetes",
   "main": "./dist/main.js",
   "scripts": {
     "build": "rimraf ./dist && babel src --out-dir ./dist",
@@ -20,21 +20,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/reaction-cli.git"
+    "url": "git+https://github.com/R8S/r8s-cli.git"
   },
   "keywords": [
     "reaction",
-    "reaction-cli",
+    "r8s-cli",
+    "r8s",
+    "R8S",
+    "k8s",
+    "kubernetes",
     "reactioncommerce",
     "reaction commerce"
   ],
   "author": "Reaction Commerce",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/reaction-cli/issues"
+    "url": "https://github.com/R8S/r8s-cli/issues"
   },
   "preferGlobal": "true",
-  "homepage": "https://github.com/reactioncommerce/reaction-cli",
+  "homepage": "https://github.com/R8S/r8s-cli",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-eslint": "8.0.2",
